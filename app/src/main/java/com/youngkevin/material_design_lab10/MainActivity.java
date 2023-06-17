@@ -98,9 +98,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }).attach();
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(view.getContext(), 2);
-        GridLayoutManager.HORIZONTAL, false);
-        recyclerView.setLayoutManager(gridLayoutManager);
+
 
 
     }

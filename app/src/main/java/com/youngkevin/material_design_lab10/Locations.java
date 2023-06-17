@@ -9,14 +9,10 @@ public class Locations {
     private int imageResourceId;
 
     public static final Locations[] location = {
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
-            new Locations("Queens Park", R.drawable.baseline_location_city_24),
+            new Locations("Town center", R.drawable.baseline_location_city_24),
+            new Locations("Queens Park", R.drawable.baseline_restaurant),
+            new Locations("Queens Park", R.drawable.baseline_restaurant),
+            new Locations("Queens Park", R.drawable.baseline_restaurant),
     };
 
     public Locations(String name, int imageResourceId) {
